@@ -22,7 +22,7 @@
   service:
     name: sshd
     state: restarted
-- name: rsyslog restart
+- name: journalctl restart
   service:
-    name: rsyslog
+    name: journalctl
     state: restarted
